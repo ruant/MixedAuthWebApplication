@@ -4,6 +4,12 @@ Forked from https://github.com/SergeySorokin/MixedAuthWebApplication
 
 #Notes
 
+## web.config
+Remember to swap out FormsAuthenticationModule with our own
+
+    <!--<add name="FormsAuthentication" type="System.Web.Security.FormsAuthenticationModule" />-->
+    <add name="FormsAuthentication" type="My.Namespace.FormsAuthenticationModule.FormsAuthModule" />
+
 ## IIS issue
 http://stackoverflow.com/questions/9794985/iis-this-configuration-section-cannot-be-used-at-this-path-configuration-lock
 
