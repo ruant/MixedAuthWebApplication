@@ -4,6 +4,9 @@ Forked from https://github.com/SergeySorokin/MixedAuthWebApplication
 
 #Notes
 
+## IIS issue
+http://stackoverflow.com/questions/9794985/iis-this-configuration-section-cannot-be-used-at-this-path-configuration-lock
+
 ## IIS Express issue
 (Credit: http://digitaldrummerj.me/iis-express-windows-authentication/)
 
