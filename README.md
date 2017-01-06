@@ -1,6 +1,6 @@
 # MixedAuthWebApplication -
-Forked from https://github.com/SergeySorokin/MixedAuthWebApplication
-
+Forked from: https://github.com/SergeySorokin/MixedAuthWebApplication
+Based on: http://mvolo.com/iis-70-twolevel-authentication-with-forms-authentication-and-windows-authentication/
 
 #Notes
 
