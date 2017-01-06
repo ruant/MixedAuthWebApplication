@@ -12,18 +12,19 @@ Remember to swap out FormsAuthenticationModule with our own
     <add name="FormsAuthentication" type="My.Namespace.FormsAuthenticationModule.FormsAuthModule" />
 
 Add own location for the LoginWin.aspx file to enable windows authentication and disable anonymous authentication
-      <location path="LoginWin.aspx">
-        <formsAuthenticationWrapper enabled="false" />
-        <system.webServer>
-          <security>
-            <!--Enable IIS Windows authentication for the login page-->
-            <authentication>
-              <windowsAuthentication enabled="true" />
-              <anonymousAuthentication enabled="false" />
-            </authentication>
-          </security>
-        </system.webServer>
-      </location>
+
+    <location path="LoginWin.aspx">
+      <formsAuthenticationWrapper enabled="false" />
+      <system.webServer>
+        <security>
+          <!--Enable IIS Windows authentication for the login page-->
+          <authentication>
+            <windowsAuthentication enabled="true" />
+            <anonymousAuthentication enabled="false" />
+          </authentication>
+        </security>
+      </system.webServer>
+    </location>
 
 ## IIS issue
 http://stackoverflow.com/questions/9794985/iis-this-configuration-section-cannot-be-used-at-this-path-configuration-lock
